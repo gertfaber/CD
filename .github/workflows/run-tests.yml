@@ -25,6 +25,6 @@ jobs:
         username: 'root'
         key: 'CD1234CD'
         script: |
-        echo Gert
+          echo Gert
 
 
