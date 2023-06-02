@@ -32,8 +32,9 @@ jobs:
           cd /home/github/CD
           git pull origin master
           dir
-          systemctl disable --now farm
-          systemctl enable --now farm
+          systemctl restart --now farm
+          # systemctl disable --now farm
+          # systemctl enable --now farm
 
 
 
