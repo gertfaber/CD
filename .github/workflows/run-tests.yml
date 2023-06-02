@@ -18,5 +18,13 @@ jobs:
   deploy:
     runs-on: ubuntu-20.04
     steps:
-    - name: Deploy Code
-      uses: appleboy/ssh-action@v0.1.2
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@master
+      with:
+        host: '178.62.203.180'
+        username: 'root'
+        key: 'CD1234CD'
+        script: |
+        echo Gert
+
+
