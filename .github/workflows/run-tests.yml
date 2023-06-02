@@ -15,3 +15,8 @@ jobs:
         run: pip install -r requirements.txt
       - name: Run tests
         run: pytest
+  deploy:
+    runs-on: ubuntu-20.04
+    steps:
+    - name: Deploy Code
+      uses: appleboy/ssh-action@v0.1.2
