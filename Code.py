@@ -7,4 +7,4 @@ git push -u origin master
 
 
 git clone https://github.com/gertfaber/CD.git
-
+git pull https://github.com/gertfaber/CD.git
