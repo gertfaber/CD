@@ -25,11 +25,11 @@ jobs:
         username: 'root'
         #key: ${{ secrets.OMG_SECRET}}
         password: 'CD1234CD'
-        #needs: test
+        needs: test
 
         script: |
           echo Gert
-          cd /home/github
+          cd /home/github/CD
           dir
 
 
