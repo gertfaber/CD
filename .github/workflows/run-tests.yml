@@ -25,7 +25,7 @@ jobs:
         host: 178.62.203.180
         username: root
         #key: ${{ secrets.OMG_SECRET}}
-        password: CD1234CD
+        
 
         script: |
           echo Gert
