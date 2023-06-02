@@ -22,10 +22,10 @@ jobs:
     - name: executing remote ssh commands using password
       uses: appleboy/ssh-action@master
       with:
-        host: '178.62.203.180'
-        username: 'root'
+        host: 178.62.203.180
+        username: root
         #key: ${{ secrets.OMG_SECRET}}
-        password: 'CD1234CD'
+        password: CD1234CD
 
         script: |
           echo Gert
