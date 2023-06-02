@@ -25,7 +25,7 @@ jobs:
       uses: appleboy/ssh-action@master
       with:
         host: 178.62.203.180
-        username: root
+        username: ${{ secrets.CD_SSH_USERNAME}}
         key: ${{ secrets.CD_SECRET}}
         
 
