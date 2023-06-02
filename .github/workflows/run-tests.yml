@@ -30,6 +30,8 @@ jobs:
         script: |
           echo Gert
           cd /home/github/CD
+          git pull origin master
           dir
+
 
 
