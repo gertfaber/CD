@@ -16,6 +16,7 @@ jobs:
       - name: Run tests
         run: pytest
   deploy:
+    needs: run-tests
     runs-on: ubuntu-20.04
     steps:
     - name: executing remote ssh commands using password
@@ -25,7 +26,6 @@ jobs:
         username: 'root'
         #key: ${{ secrets.OMG_SECRET}}
         password: 'CD1234CD'
-        needs: test
 
         script: |
           echo Gert
