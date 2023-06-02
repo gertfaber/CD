@@ -24,7 +24,7 @@ jobs:
       with:
         host: 178.62.203.180
         username: root
-        #key: ${{ secrets.OMG_SECRET}}
+        key: ${{ secrets.CD_SECRET}}
         
 
         script: |
