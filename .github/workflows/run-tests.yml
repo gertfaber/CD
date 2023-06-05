@@ -35,8 +35,7 @@ jobs:
           git pull origin master
           dir
           systemctl restart --now farm
-          # systemctl disable --now farm
-          # systemctl enable --now farm
+
 
 
 
