@@ -14,5 +14,7 @@ git remote add origin https://github.com/gertfaber/Drop.git
 
 /home/github/CD/farm
 
+#Deploying to a server with GitHub Actions - Up and Running - Elixir Phoenix
+https://www.youtube.com/watch?v=gW1TDirJ5E4
 
 
